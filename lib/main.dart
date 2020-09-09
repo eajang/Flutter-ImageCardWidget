@@ -69,6 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Container(
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
+        padding: EdgeInsets.all(8),
         child: Column(
           // Column is also a layout widget. It takes a list of children and
           // arranges them vertically. By default, it sizes itself to fit its
@@ -88,6 +89,7 @@ class _MyHomePageState extends State<MyHomePage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           mainAxisSize: MainAxisSize.min,
           children: <Widget>[
+            ImageCardWidget(),
             ImageCardWidget(),
           ],
         ),

@@ -5,7 +5,8 @@ class ImageCardWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
         clipBehavior: Clip.antiAlias,
-        elevation: 2,
+        elevation: 4,
+          margin: EdgeInsets.all(8),
           child: Column (
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisSize: MainAxisSize.min,

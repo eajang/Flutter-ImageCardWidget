@@ -1,6 +1,6 @@
-# flutter_card_view
+# flutter ImageCardWidget
 
-Flutter card view
+Flutter basic image card widget
 
 ## Getting Started
 
